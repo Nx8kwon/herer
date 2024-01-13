@@ -1,0 +1,139 @@
+@media(max-width: 900px){
+    .film-block{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .film-block .box{
+        max-width: 100% !important;
+    }
+    
+    .series .big .text h4{
+        font-size: 33px;
+    }
+    
+    .series .big .text p{
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .series__collection{
+        grid-template-areas: 
+        "box1 box1"
+        "box1 box1"
+        "box2 box3"
+        "box4 box5"
+    ;
+    }
+    
+}
+
+@media(max-width: 750px){
+    .collections .block{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 700px){
+    .series .big .text h4{
+        font-size: 25px;
+    }
+    
+    .series .big .text p{
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    
+    .series .big .text a{
+        margin-top: 20px;
+    }
+    
+}
+
+
+
+@media(max-width: 580px){
+    header .menu nav{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    
+    header .menu nav ul li a{
+        padding: 15px 10px;
+    }
+    
+    header .poster{
+        padding: 10px 0;
+    }
+    
+    header .poster i{
+        font-size: 20px;
+    }
+    
+    header .poster p{
+        font-size: 12px;
+        width: 170px;
+        margin-left: 15px;
+    }
+    
+    .block-text h1{
+        font-size: 41px;
+    }
+    
+    .block-text p{
+        font-size: 15px;
+    }
+    
+   
+    
+    header .text .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+    header .text .btn a{
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    
+    .series .big .text a{
+        width: 100% !important;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 500px){
+    .film-block{
+        grid-template-columns: 1fr;
+    }
+    
+    .fon-doctor-img{
+        width: 100%;
+    }
+    
+    .series .big .text h4{
+        font-size: 15px;
+    }
+    
+    .series .big .text p{
+        margin-top: 8px;
+        font-size: 8px;
+    }
+    
+    .series .big .text a{
+        margin-top: 15px;
+    }
+    
+}
+
+@media(max-width: 400px){
+    .series__collection{
+        grid-template-areas: 
+        "box1"
+        "box2"
+        "box3"
+        "box4"
+        "box5"
+    ;
+    }
+}
